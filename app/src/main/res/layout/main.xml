@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="3000dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="serif-monospace"
+            android:text="Event Booking"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="3000dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"
+            android:text="Bringing Happiness through Services"
+            android:textColor="#FFC107"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo1"
+            android:id="@+id/image1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/purple_700" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Sangeeth"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Tap to view" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Birthday"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Tap to view" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:text="Musical Nights"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Tap to view" />
+    <View
+        android:layout_width="3000dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:text="Marriage"
+        android:textColor="#FFC107"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Tap to view" />
+    <View
+        android:layout_width="3000dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" />
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
